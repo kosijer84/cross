@@ -1,0 +1,14 @@
+.o-table {
+
+  td {
+    color: $cl-color-gray;
+    font-size: 14px;
+  }
+
+  &.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #cacaca;
+  }
+  &.table-striped > tbody > tr:nth-of-type(even) {
+    background-color: var(--cl-white);
+  }
+}

@@ -1,0 +1,12 @@
+.t-footer {
+
+  .nav-item {
+
+    &:last-child {
+
+      .a-nav-link-footer {
+        border-right: none;
+      }
+    }
+  }
+}

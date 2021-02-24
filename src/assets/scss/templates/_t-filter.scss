@@ -1,0 +1,18 @@
+.t-filter {
+
+  &-mobile {
+
+    @include media-breakpoint-down(lg) {
+      position: absolute;
+      left: -100%;
+      top: 210px;
+      max-width: 260px;
+      transition: $transition-base;
+    }
+  }
+}
+
+.jsShowFilter {
+  left: -10px;
+  z-index: 9;
+}

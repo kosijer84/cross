@@ -1,0 +1,30 @@
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+//theming
+@import "general/theming";
+@import "general/custom-variables";
+
+//bootstrap core
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+
+//general
+@import "general/general";
+
+//atoms
+@import "atoms/a-navbar-brand";
+@import "atoms/a-link";
+@import "atoms/a-title";
+@import "atoms/a-btn";
+
+//molecules
+@import "molecules/m-pagination";
+
+//organisms
+@import "organisms/o-navigation";
+@import "organisms/o-card";
+@import "organisms/o-table";
+
+//templates
+@import "templates/t-footer";
+@import "templates/t-filter";

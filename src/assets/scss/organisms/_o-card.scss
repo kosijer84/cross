@@ -1,0 +1,15 @@
+.o-card {
+  box-shadow: 0 2px 4px $cl-bg-gray;
+  border: 0;
+  background-color: $cl-bg-gray;
+
+  &-header {
+    padding-top: 15px;
+    border: 0;
+    background-color: $cl-bg-gray;
+  }
+  &-body {
+    background-color: $cl-bg-gray;
+    padding: 0.5rem 1rem 1rem 1rem;
+  }
+}

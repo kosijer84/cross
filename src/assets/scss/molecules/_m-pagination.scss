@@ -1,0 +1,37 @@
+.m-pagination {
+
+  &-item {
+    border-radius: 0;
+
+    .page-link {
+      border: 1px solid $primary;
+      padding: 0.01rem 0.25rem;
+      margin: 0 10px;
+    }
+
+    &:last-child {
+
+      .page-link {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        margin-right: 0;
+      }
+    }
+    &:first-child {
+
+      .page-link {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+      }
+    }
+  }
+  &-middle {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  &-pages {
+    font-size: 14px;
+    color: $cl-color-gray;
+  }
+}

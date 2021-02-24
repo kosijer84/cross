@@ -1,0 +1,20 @@
+.a {
+
+  &-nav-link {
+    color: var(--cl-white);
+    padding: 1.13rem 1rem;
+  }
+  &-nav-link-footer {
+    font-size: 12px;
+    color: var(--cl-white);
+    margin: 1rem 0;
+    padding: 0 1rem;
+    border-right: 1px solid var(--cl-white);
+
+    &:hover,
+    &:active,
+    &:focus {
+      color: var(--cl-white);
+    }
+  }
+}
